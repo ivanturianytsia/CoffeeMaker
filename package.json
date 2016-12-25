@@ -1,0 +1,25 @@
+{
+  "name": "coffeemaker",
+  "version": "1.0.0",
+  "description": "Coffee Maker app for Raspberry Pi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanturianytsia/CoffeeMaker.git"
+  },
+  "keywords": [
+    "coffe",
+    "maker",
+    "raspberry",
+    "pi"
+  ],
+  "author": "Ivan Turianytsia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanturianytsia/CoffeeMaker/issues"
+  },
+  "homepage": "https://github.com/ivanturianytsia/CoffeeMaker#readme"
+}
