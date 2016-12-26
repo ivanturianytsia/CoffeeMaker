@@ -4,6 +4,7 @@
   "description": "Coffee Maker app for Raspberry Pi.",
   "main": "index.js",
   "scripts": {
+    "start": "gulp",
     "test": "mocha"
   },
   "repository": {
@@ -21,5 +22,17 @@
   "bugs": {
     "url": "https://github.com/ivanturianytsia/CoffeeMaker/issues"
   },
-  "homepage": "https://github.com/ivanturianytsia/CoffeeMaker#readme"
+  "homepage": "https://github.com/ivanturianytsia/CoffeeMaker#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "mocha": "^3.0.2",
+    "morgan": "^1.7.0",
+    "socket.io": "^1.7.2"
+  }
 }
